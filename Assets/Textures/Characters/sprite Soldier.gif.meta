@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: d8765def32d2145ac92bdf9939357772
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite Soldier_0
+    21300002: sprite Soldier_1
+    21300004: sprite Soldier_2
+    21300006: sprite Soldier_3
+    21300008: sprite Soldier_4
+    21300010: sprite Soldier_5
+    21300012: sprite Soldier_6
+    21300014: sprite Soldier_7
+    21300016: sprite Soldier_8
+    21300018: sprite Soldier_9
+    21300020: sprite Soldier_10
+    21300022: sprite Soldier_11
+    21300024: sprite Soldier_12
+    21300026: sprite Soldier_13
+    21300028: sprite Soldier_14
+    21300030: sprite Soldier_15
+    21300032: sprite Soldier_16
+    21300034: sprite Soldier_17
+    21300036: sprite Soldier_18
+    21300038: sprite Soldier_19
+    21300040: sprite Soldier_20
+    21300042: sprite Soldier_21
+    21300044: sprite Soldier_22
+    21300046: sprite Soldier_23
+    21300048: sprite Soldier_24
+    21300050: sprite Soldier_25
+    21300052: sprite Soldier_26
+    21300054: sprite Soldier_27
+    21300056: sprite Soldier_28
+    21300058: sprite Soldier_29
+    21300060: sprite Soldier_30
+    21300062: sprite Soldier_31
+    21300064: sprite Soldier_32
+    21300066: sprite Soldier_33
+    21300068: sprite Soldier_34
+    21300070: sprite Soldier_35
+    21300072: sprite Soldier_36
+    21300074: sprite Soldier_37
+    21300076: sprite Soldier_38
+    21300078: sprite Soldier_39
+    21300080: sprite Soldier_40
+    21300082: sprite Soldier_41
+    21300084: sprite Soldier_42
+    21300086: sprite Soldier_43
+    21300088: sprite Soldier_44
+    21300090: sprite Soldier_45
+    21300092: sprite Soldier_46
+    21300094: sprite Soldier_47
+    21300096: sprite Soldier_48
+    21300098: sprite Soldier_49
+    21300100: sprite Soldier_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite Soldier_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 331
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 331
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 331
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 332
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 262
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 260
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 258
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 196
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 196
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 196
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 196
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 195
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 195
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 107
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_17
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 110
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 116
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 27
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 27
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 71
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 71
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 71
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_25
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 71
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_27
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 71
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 71
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 30
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 32
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_32
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 56
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_33
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 56
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_34
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 56
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_35
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 56
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_36
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_37
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 56
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 39
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 39
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 41
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_42
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 41
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_43
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 41
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 39
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 41
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_46
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 41
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_48
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 39
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 41
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite Soldier_50
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

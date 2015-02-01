@@ -1,0 +1,1807 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ran",
+				"randomAngle"
+			],
+			[
+				"ra",
+				"randomY"
+			],
+			[
+				"even",
+				"eventMsg"
+			],
+			[
+				"eve",
+				"eventMsg"
+			],
+			[
+				"gAME",
+				"GameManager"
+			],
+			[
+				"fish",
+				"fishCount"
+			],
+			[
+				"cH",
+				"characterName"
+			],
+			[
+				"Do",
+				"DoPlayText"
+			],
+			[
+				"inst",
+				"Instance"
+			],
+			[
+				"pl",
+				"PlayerController"
+			],
+			[
+				"GameO",
+				"GameOver"
+			],
+			[
+				"day",
+				"day"
+			],
+			[
+				"log",
+				"DailyLog"
+			],
+			[
+				"al",
+				"aliveBoardCrews"
+			],
+			[
+				"gamef",
+				"gameFinishMsg"
+			],
+			[
+				"gamefin",
+				"gameFinishCap"
+			],
+			[
+				"sET",
+				"SetText"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"pr",
+				"progress"
+			],
+			[
+				"gam",
+				"GameManager"
+			],
+			[
+				"Canb",
+				"CanGoBoating"
+			],
+			[
+				"spea",
+				"speakTarget"
+			],
+			[
+				"fl",
+				"flipDir"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"ms",
+				"dieMsg"
+			],
+			[
+				"char",
+				"characterName"
+			],
+			[
+				"all",
+				"allCharacters"
+			],
+			[
+				"cOO",
+				"CookSomeOne"
+			],
+			[
+				"max",
+				"maxHunger"
+			],
+			[
+				"ch",
+				"characterName"
+			],
+			[
+				"fis",
+				"fishCount"
+			],
+			[
+				"fi",
+				"fishCount"
+			],
+			[
+				"TX",
+				"txtTitle"
+			],
+			[
+				"pa",
+				"PlayerController"
+			],
+			[
+				"Dow",
+				"DoShowMessage"
+			],
+			[
+				"DoF",
+				"DoFadeIn"
+			],
+			[
+				"Fade",
+				"FadeOut"
+			],
+			[
+				"he",
+				"health"
+			],
+			[
+				"cHA",
+				"Character"
+			],
+			[
+				"opt",
+				"curOptionIndex"
+			],
+			[
+				"dial",
+				"dialogBox"
+			],
+			[
+				"btn",
+				"btn"
+			],
+			[
+				"op",
+				"optionButtons"
+			],
+			[
+				"option",
+				"optionBtnPrefab"
+			],
+			[
+				"s",
+				"sizeDelta"
+			],
+			[
+				"Dia",
+				"DialogData"
+			],
+			[
+				"dia",
+				"dialogs"
+			],
+			[
+				"Show",
+				"ShowNextDialog"
+			],
+			[
+				"txt",
+				"txtMsg"
+			],
+			[
+				"hel",
+				"helloMsg"
+			],
+			[
+				"pla",
+				"PlayText"
+			],
+			[
+				"Clea",
+				"ClearRoom"
+			],
+			[
+				"cap",
+				"captainCrew"
+			],
+			[
+				"crew",
+				"crew"
+			],
+			[
+				"batt",
+				"battleCrewList"
+			],
+			[
+				"reay",
+				"readyCrewList"
+			],
+			[
+				"battle",
+				"battleCrewList"
+			],
+			[
+				"co",
+				"colors"
+			],
+			[
+				"sele",
+				"selectedItem"
+			],
+			[
+				"list",
+				"listItem"
+			],
+			[
+				"readyre",
+				"readyRectTarget"
+			],
+			[
+				"ar",
+				"anchoredPosition"
+			],
+			[
+				"listi",
+				"listItemRect"
+			],
+			[
+				"sel",
+				"selectedBtn"
+			],
+			[
+				"li",
+				"listItem"
+			],
+			[
+				"adva",
+				"AdvanceUIButton"
+			],
+			[
+				"life",
+				"life"
+			],
+			[
+				"fire",
+				"fireBall"
+			],
+			[
+				"cur",
+				"curLevel"
+			],
+			[
+				"da",
+				"_data"
+			],
+			[
+				"pos",
+				"anchoredPosition"
+			],
+			[
+				"exp",
+				"expBar"
+			],
+			[
+				"dis",
+				"displayLevel"
+			],
+			[
+				"las",
+				"laserClip"
+			],
+			[
+				"rad",
+				"_Radius"
+			],
+			[
+				"ski",
+				"skillBtn"
+			],
+			[
+				"skil",
+				"skillInterval"
+			],
+			[
+				"skill",
+				"skillBtnList"
+			],
+			[
+				"sk",
+				"skillBtn"
+			],
+			[
+				"str",
+				"strIndex"
+			],
+			[
+				"mENU",
+				"MenuSystem"
+			],
+			[
+				"GEtBa",
+				"GetBattleEnergy"
+			],
+			[
+				"save",
+				"saveLevel"
+			],
+			[
+				"curl",
+				"curLevel"
+			],
+			[
+				"se",
+				"sequences"
+			],
+			[
+				"_le",
+				"_levelSequence"
+			],
+			[
+				"testse",
+				"testSeqIndex"
+			],
+			[
+				"test",
+				"testLevel"
+			],
+			[
+				"curs",
+				"curSequence"
+			],
+			[
+				"seq",
+				"sequences"
+			],
+			[
+				"curse",
+				"curSeqIndex"
+			],
+			[
+				"prod",
+				"produceRate"
+			],
+			[
+				"screen",
+				"screenHeight"
+			],
+			[
+				"scree",
+				"screenWidth"
+			],
+			[
+				"Pla",
+				"PlayerController"
+			],
+			[
+				"Pl",
+				"PlayerController"
+			],
+			[
+				"ME",
+				"MessageManager"
+			],
+			[
+				"S",
+				"Screen"
+			],
+			[
+				"scr",
+				"screenHeight"
+			],
+			[
+				"sc",
+				"screenWidth"
+			],
+			[
+				"Menu",
+				"MenuSystem"
+			],
+			[
+				"ins",
+				"Instance"
+			],
+			[
+				"boo",
+				"boom"
+			],
+			[
+				"ex",
+				"explosionInterval"
+			],
+			[
+				"int",
+				"interval"
+			],
+			[
+				"GETbATTL",
+				"GetBattleEngineering"
+			],
+			[
+				"getmaxfirer",
+				"GetMaxFireRange"
+			],
+			[
+				"GetFi",
+				"GetFireRate"
+			],
+			[
+				"p",
+				"player"
+			],
+			[
+				"Add",
+				"AddListener"
+			],
+			[
+				"coun",
+				"countDown"
+			],
+			[
+				"b",
+				"bVal"
+			],
+			[
+				"Getmax",
+				"GetMaxFireRange"
+			],
+			[
+				"C",
+				"Clamp"
+			],
+			[
+				"Start",
+				"StartCoroutine"
+			],
+			[
+				"wai",
+				"WaitForEndOfFrame"
+			],
+			[
+				"enemy",
+				"enemyType"
+			],
+			[
+				"Leve",
+				"LevelSequence"
+			],
+			[
+				"Batt",
+				"BattleSkill"
+			],
+			[
+				"Time",
+				"TimerController"
+			],
+			[
+				"play",
+				"PlayerController"
+			],
+			[
+				"HP",
+				"HPbar"
+			],
+			[
+				"fireR",
+				"fireRange"
+			],
+			[
+				"firera",
+				"fireRate"
+			],
+			[
+				"GetC",
+				"GetCrewRange"
+			],
+			[
+				"eng",
+				"engineering"
+			],
+			[
+				"fir",
+				"fireRange"
+			],
+			[
+				"show",
+				"ShowCrewDetail"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/GameManager.js",
+			"settings":
+			{
+				"buffer_size": 8614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/LighteningGenerator.js",
+			"settings":
+			{
+				"buffer_size": 1940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Lightening.js",
+			"settings":
+			{
+				"buffer_size": 2099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Character.js",
+			"settings":
+			{
+				"buffer_size": 8583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Wave.js",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/CameraController.js",
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/PlayerController.js",
+			"settings":
+			{
+				"buffer_size": 2584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/TypeWriter.js",
+			"settings":
+			{
+				"buffer_size": 1338,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets"
+	],
+	"file_history":
+	[
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/DialogBox.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character/Chef.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character/Sailor.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character/Doctor.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character/Soldier.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/PlayerTrigger.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/Triangles.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Animation/Chef/ChefAnim.controller",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Character/Captain.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Particles/Sources/Shaders/Particle Alpha Blend (Queue +100).shader",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/ContrastEnhance.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/ColorCorrectionCurves.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Light Cookies/Flashlight.tif",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/CameraController.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/TypeWriter.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/AudioManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/OptionButton.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/MessageBox.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/ScreenOverlay.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ShowAlphaChannel.shader",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/DepthOfField34.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/GameManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/BattleUIElement.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Hover.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/BloomAndLensFlares.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Materials/beam.mat",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Material/MT_Pixel.mat",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Particles/Sources/Animations/Stop Emitting ,5 sec.anim",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CreaseApply.shader",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts/Wave.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Game.unity",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Audio/SFX/typewriter1.ogg",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/LookAtCamera.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Standard Assets/Image Effects (Pro Only)/CameraMotionBlur.js",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/cone.blend",
+		"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/ic5.sublime-project",
+		"/Users/yibojiang/Documents/GameDevelop/SongOfEdenProject/SongOfEden/soe.sublime-project",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Manager/GameManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/Room.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/RepairRoom.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/CrewLevelupPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/MenuSystem.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleMapMenu.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/MapPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Base/BaseCrew.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/Beam.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Manager/EnemyManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/ResultMember.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/LevelClearPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/AdvanceUIButton.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/BattleDeparturePanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/BattleCrewDetailPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Enemies/Enemy.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/Crew.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/BasePlayer.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Plugins/CustomUI/CustomButton.cs",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Controller/CameraController.js",
+		"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/Tools/buildcommand.txt",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/CrewDetailDisplay.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/Entity.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/SkillButton.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Database/Database.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/FireBall.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/BaseBullet.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Tools/ParticleSystemAutoDestroy.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/SlidePanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Editor/DeleteMyPlayerPrefs.cs",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BasePanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/BattleCrewPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/BattleCrew.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/Panel/CrewDetailPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Manager/AudioManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/SkillRoom.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/ScrollingArea.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/MegaWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/FireRangeUI.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/Missile.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Controller/PlayerController.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/Ship.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/LaserWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Editor/LevelEditor.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/HPbar.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/CrewDetailPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleDeparturePanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/LevelClearPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Animation/Crew/BattleCrew.controller",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Animation/Crew/BattleCrew.anim",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/MissileWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Manager/MessageManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Enemies/EnemyWeapon/EnemyShield.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/Bullet.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/MachineGunWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/Assets/Game/Scripts/Controller/LaserGunController.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/RobotWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/Robot.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/RobotFreeze.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/LineRing.js",
+		"/Users/yibojiang/Downloads/builtin_shaders-4.6.1/DefaultResources/Sprites-Default.shader",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Shaders/UI-Default.shader",
+		"/Users/yibojiang/Downloads/Black.Mirror.S02.Special.White.Chirstmas.720p.HDTV.x264-TLA[brassetv]/Black.Mirror.S02.Special.White.Chirstmas.WEB-DL.AAC2.0.H.264-Coo7.chs.srt",
+		"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/Assets/ex2D/Resources/SpriteBlendClipping.shader",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/ControlRoom.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/RestRoom.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/WeaponObject/CannonBullet.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Object/WeaponRoom.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Shaders/MaskShader.shader",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Standard Assets/Glass Refraction (Pro Only)/FX-Refractive.mat",
+		"/Users/yibojiang/Documents/GameDevelop/UnityTest/Prototype919/Assets/Game/Shaders/Rim.shader",
+		"/Users/yibojiang/Downloads/builtin_shaders-4.6.1/DefaultResourcesExtra/UI/UI-Default.shader",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Shaders/InvisibleDistort.shader",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Room/CannonWeapon.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Audio/BGM/result.mp3",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/MessageBox.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleCrewPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/VDProject/VD/Assets/Scripts/Object/DialogBox.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Editor/ConfigEditor.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleUIElement.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/PlanetDetail.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Manager/InputManager.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Materials/ship_invisible.mat",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleMapPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Tools/Timer.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/UI/BattleCrewDetailPanel.js",
+		"/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets/Script/Database/ProfileManager.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/yibojiang/Documents/GameDevelop/InfinityCircleProjects/InfinityCircle5 Project/InfinityCircle5/Assets/Scripts",
+			"*.js,/Users/yibojiang/Documents/GameDevelop/CatBattle2Project/CatBattle2/Assets",
+			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/Assets",
+			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties",
+			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/,*.js,*.c#",
+			"/Users/yibojiang/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"die",
+			"keycode",
+			"GetAvailableCount",
+			"hunger",
+			"addaction",
+			"hunger",
+			"addhunger",
+			"crazy",
+			"IsSleeping",
+			"FallAsleep",
+			"GameOver",
+			"GameFinish",
+			"UpdateBackGround",
+			"CookSomeOne",
+			"inventoryCount",
+			"roomInventory",
+			"weapon",
+			"controlRoomConfigId",
+			"ControlRoomData",
+			"ControlRoom",
+			"ControlRoomConfigData",
+			"controlroom",
+			"customi",
+			"ControlRoomConfigData",
+			"controlRoomConfig",
+			"controlroomconfig",
+			"panels",
+			"shipdata",
+			"selected",
+			"sleep",
+			"skillToggle",
+			"float",
+			"GetKeyDown(KeyCode.K)",
+			"UpdatePanel",
+			"count",
+			"GetFireInterval",
+			"shield",
+			"amy",
+			"ColorMask",
+			"_ColorMask",
+			"clip",
+			"ConsumeEnergy",
+			"explosionDamage",
+			"damage",
+			"enemyTransform",
+			"skill",
+			"maxZoomFactor",
+			"GenerateEenmy",
+			"battleCrews",
+			"GetMaxBattleEngineering",
+			"WeaponType",
+			"weaponType",
+			"GetFireInterval",
+			"GetDailyLevel",
+			"firerate",
+			"Distortion",
+			"HURT",
+			"gameOver",
+			"hpbar.transform.SetParent",
+			"slowDown",
+			"coroutine",
+			"energy",
+			"energydroprate",
+			"gamestart",
+			"GetFireInterval",
+			"tmpInterval",
+			"tmpinterval",
+			"_ability[i]",
+			"maxrange",
+			"detectenemy",
+			"hpbar",
+			"baseShip",
+			"customi",
+			"*/\n",
+			"-5",
+			"BaseAttribute",
+			"crewdata",
+			"workBtn.SetText",
+			"ammorate",
+			"tech",
+			"ammorate",
+			"crewdata",
+			"baseShip",
+			"baseroomdata",
+			"workconfig",
+			"workconfigdata",
+			"toobject",
+			"object",
+			"JSONArray",
+			"workconfigdata",
+			"RandomName",
+			"crewdata",
+			"battleAdd",
+			"ammo",
+			"toobj",
+			"hurt",
+			"hidemenu",
+			"gamespeed",
+			"crewskillconfig",
+			"BaseAttribute",
+			"gameSpeed",
+			"gamespeed",
+			"timesc",
+			"leveldata",
+			"WorkLevelUp",
+			"battleExp",
+			"ConfigEditor",
+			"workbtn",
+			"crewdata",
+			"workBtn",
+			"AddCrew",
+			"BaseCrewState",
+			"crewdata",
+			"workconfigdata",
+			"progressbar",
+			"crewdata",
+			"StudyStatus",
+			"txtTech",
+			"imgTechProgress",
+			"gameSpeed",
+			"ShowDetail",
+			"SAVEGAMEDATA",
+			"_ability",
+			"layerMask",
+			"layer",
+			"speedSlideBar",
+			"LevelUp",
+			"studystatus"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"tipbar.",
+			"InitMenuState",
+			"tUpg[3]",
+			"tUpg[2]",
+			"tUpg[1]",
+			"tUpg[0]",
+			"tProperty[3]",
+			"tProperty[2]",
+			"tProperty[1]",
+			"tProperty[0]",
+			"tUpg[0]",
+			"tUpg[3]",
+			"tUpg[2]",
+			"tUpg[1]",
+			"curShip",
+			"#if !CONSOLE",
+			"#if CONSOLE",
+			"",
+			"weaponSlots",
+			"MOBISAGE_JOY"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/GameManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/LighteningGenerator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/Lightening.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/Character.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1277,
+								1277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/Wave.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/Scripts/CameraController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Scripts/PlayerController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/Scripts/TypeWriter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1231,
+								1231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ic5.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ligh",
+				"Scripts/Lightening.js"
+			],
+			[
+				"char",
+				"Scripts/Character.js"
+			],
+			[
+				"gamem",
+				"Scripts/GameManager.js"
+			],
+			[
+				"ch",
+				"Scripts/Character.js"
+			],
+			[
+				"so",
+				"Scripts/Character/Soldier.js"
+			],
+			[
+				"sai",
+				"Scripts/Character/Sailor.js"
+			],
+			[
+				"chef",
+				"Scripts/Character/Chef.js"
+			],
+			[
+				"chara",
+				"Scripts/Character.js"
+			],
+			[
+				"game",
+				"Scripts/GameManager.js"
+			],
+			[
+				"dia",
+				"Scripts/DialogBox.js"
+			],
+			[
+				"type",
+				"Scripts/TypeWriter.js"
+			],
+			[
+				"player",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"cha",
+				"Scripts/Character.js"
+			],
+			[
+				"playerc",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"che",
+				"Scripts/Character/Chef.js"
+			],
+			[
+				"sail",
+				"Scripts/Character/Sailor.js"
+			],
+			[
+				"play",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"palyer",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"camera",
+				"Scripts/CameraController.js"
+			],
+			[
+				"gamema",
+				"Scripts/GameManager.js"
+			],
+			[
+				"sol",
+				"Scripts/Character/Soldier.js"
+			],
+			[
+				"doc",
+				"Scripts/Character/Doctor.js"
+			],
+			[
+				"sailor",
+				"Scripts/Character/Sailor.js"
+			],
+			[
+				"dial",
+				"Scripts/DialogBox.js"
+			],
+			[
+				"cap",
+				"Scripts/Character/Captain.js"
+			],
+			[
+				"pla",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"camerac",
+				"Scripts/CameraController.js"
+			],
+			[
+				"audioma",
+				"Scripts/AudioManager.js"
+			],
+			[
+				"pl",
+				"Scripts/PlayerController.js"
+			],
+			[
+				"playert",
+				"Scripts/PlayerTrigger.js"
+			],
+			[
+				"playe",
+				"Scripts/PlayerTrigger.js"
+			],
+			[
+				"opt",
+				"Scripts/OptionButton.js"
+			],
+			[
+				"sold",
+				"Scripts/Character/Soldier.js"
+			],
+			[
+				"typew",
+				"Scripts/TypeWriter.js"
+			],
+			[
+				"audio",
+				"Scripts/AudioManager.js"
+			],
+			[
+				"mess",
+				"Scripts/MessageBox.js"
+			],
+			[
+				"battleui",
+				"Scripts/BattleUIElement.js"
+			],
+			[
+				"tr",
+				"Standard Assets/Image Effects (Pro Only)/Triangles.js"
+			],
+			[
+				"wav",
+				"Scripts/Wave.js"
+			],
+			[
+				"sud",
+				"Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif"
+			],
+			[
+				"hov",
+				"Scripts/Hover.js"
+			],
+			[
+				"roominv",
+				"Script/Object/RoomInventory.js"
+			],
+			[
+				"data",
+				"Script/Database/Database.js"
+			],
+			[
+				"databa",
+				"Script/Database/Database.js"
+			],
+			[
+				"depart",
+				"Script/UI/Panel/BattleDeparturePanel.js"
+			],
+			[
+				"menu",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"main",
+				"Script/UI/Menu/MainMenu.js"
+			],
+			[
+				"basem",
+				"Script/UI/Menu/BaseMenu.js"
+			],
+			[
+				"basepa",
+				"Script/UI/Panel/BasePanel.js"
+			],
+			[
+				"customize",
+				"Script/UI/Menu/CustomizeMenu.js"
+			],
+			[
+				"cust",
+				"Plugins/CustomUI/CustomButton.cs"
+			],
+			[
+				"database",
+				"Script/Database/Database.js"
+			],
+			[
+				"crew",
+				"Script/Object/Crew.js"
+			],
+			[
+				"adva",
+				"Script/UI/AdvanceUIButton.js"
+			],
+			[
+				"depar",
+				"Script/UI/Panel/BattleDeparturePanel.js"
+			],
+			[
+				"basebu",
+				"Script/Room/WeaponObject/BaseBullet.js"
+			],
+			[
+				"battlecrewde",
+				"Script/UI/Panel/BattleCrewDetailPanel.js"
+			],
+			[
+				"crewdeta",
+				"Script/UI/Panel/CrewDetailPanel.js"
+			],
+			[
+				"enemy",
+				"Script/Enemies/Enemy.js"
+			],
+			[
+				"enemyma",
+				"Script/Manager/EnemyManager.js"
+			],
+			[
+				"crewdetaildisplay",
+				"Script/UI/CrewDetailDisplay.js"
+			],
+			[
+				"battlecrew",
+				"Script/UI/Panel/BattleCrewPanel.js"
+			],
+			[
+				"autod",
+				"Script/Tools/ParticleSystemAutoDestroy.js"
+			],
+			[
+				"skill",
+				"Script/Object/SkillRoom.js"
+			],
+			[
+				"mega",
+				"Script/Room/MegaWeapon.js"
+			],
+			[
+				"enti",
+				"Script/Object/Entity.js"
+			],
+			[
+				"fireba",
+				"Script/Room/WeaponObject/FireBall.js"
+			],
+			[
+				"menus",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"missi",
+				"Script/Room/WeaponObject/Missile.js"
+			],
+			[
+				"crewda",
+				"Script/UI/CrewDetailDisplay.js"
+			],
+			[
+				"crewlev",
+				"Script/UI/Panel/CrewLevelupPanel.js"
+			],
+			[
+				"ship",
+				"Script/Object/Ship.js"
+			],
+			[
+				"levelcl",
+				"Script/UI/Panel/LevelClearPanel.js"
+			],
+			[
+				"crewle",
+				"Script/UI/Panel/CrewLevelupPanel.js"
+			],
+			[
+				"levelc",
+				"Script/UI/Panel/LevelClearPanel.js"
+			],
+			[
+				"basep",
+				"Script/UI/BasePanel.js"
+			],
+			[
+				"basepanel",
+				"Script/UI/BasePanel.js"
+			],
+			[
+				"crewd",
+				"Script/UI/CrewDetailDisplay.js"
+			],
+			[
+				"meu",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"enemym",
+				"Script/Manager/EnemyManager.js"
+			],
+			[
+				"depa",
+				"Script/UI/BattleDeparturePanel.js"
+			],
+			[
+				"crewde",
+				"Script/UI/CrewDetailPanel.js"
+			],
+			[
+				"battlede",
+				"Script/UI/BattleDeparturePanel.js"
+			],
+			[
+				"levele",
+				"Script/Editor/LevelEditor.js"
+			],
+			[
+				"missil",
+				"Script/Room/WeaponObject/Missile.js"
+			],
+			[
+				"machine",
+				"Script/Room/MachineGunWeapon.js"
+			],
+			[
+				"robotw",
+				"Script/Room/RobotWeapon.js"
+			],
+			[
+				"laser",
+				"Script/Room/LaserWeapon.js"
+			],
+			[
+				"entit",
+				"Script/Object/Entity.js"
+			],
+			[
+				"bulle",
+				"Script/Room/WeaponObject/Bullet.js"
+			],
+			[
+				"shiel",
+				"Script/Enemies/EnemyWeapon/EnemyShield.js"
+			],
+			[
+				"fire",
+				"Script/UI/FireRangeUI.js"
+			],
+			[
+				"weaponr",
+				"Script/Object/WeaponRoom.js"
+			],
+			[
+				"rest",
+				"Script/Room/RestRoom.js"
+			],
+			[
+				"skillro",
+				"Script/Object/SkillRoom.js"
+			],
+			[
+				"contr",
+				"Script/Object/ControlRoom.js"
+			],
+			[
+				"cannonbu",
+				"Script/Room/WeaponObject/CannonBullet.js"
+			],
+			[
+				"weaponroom",
+				"Script/Object/WeaponRoom.js"
+			],
+			[
+				"canpn",
+				"Script/Room/CannonWeapon.js"
+			],
+			[
+				"skilr",
+				"Script/Object/SkillRoom.js"
+			],
+			[
+				"skil",
+				"Script/UI/SkillButton.js"
+			],
+			[
+				"skillb",
+				"Script/UI/SkillButton.js"
+			],
+			[
+				"battlec",
+				"Script/Object/BattleCrew.js"
+			],
+			[
+				"battlecrewpa",
+				"Script/UI/BattleCrewPanel.js"
+			],
+			[
+				"meus",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"crwe",
+				"Script/Object/Crew.js"
+			],
+			[
+				"plane",
+				"Script/UI/PlanetDetail.js"
+			],
+			[
+				"mapp",
+				"Script/UI/MapPanel.js"
+			],
+			[
+				"menusys",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"menusy",
+				"Script/UI/MenuSystem.js"
+			],
+			[
+				"xml",
+				"Plugins/Utility/XmlSaver.cs"
+			],
+			[
+				"jsonmapper",
+				"Plugins/LitJson/JsonMapper.cs"
+			],
+			[
+				"profi",
+				"Script/Database/ProfileManager.js"
+			],
+			[
+				"xmls",
+				"Plugins/Utility/XmlSaver.cs"
+			],
+			[
+				"basepla",
+				"Script/Object/BasePlayer.js"
+			],
+			[
+				"basec",
+				"Script/Base/BaseCrew.js"
+			],
+			[
+				"basepl",
+				"Script/Object/BasePlayer.js"
+			],
+			[
+				"rep",
+				"Script/Room/RepairRoom.js"
+			],
+			[
+				"contro",
+				"Script/Object/ControlRoom.js"
+			],
+			[
+				"repair",
+				"Script/Room/RepairRoom.js"
+			],
+			[
+				"enem",
+				"Script/Manager/EnemyManager.js"
+			],
+			[
+				"issi",
+				"Script/Room/WeaponObject/Missile.js"
+			],
+			[
+				"beam",
+				"Script/Room/WeaponObject/Beam.js"
+			],
+			[
+				"controlroom",
+				"Script/Object/ControlRoom.js"
+			],
+			[
+				"canno",
+				"Script/Room/CannonWeapon.js"
+			],
+			[
+				"cannon",
+				"Script/Room/CannonWeapon.js"
+			],
+			[
+				"cont",
+				"Script/Object/ControlRoom.js"
+			],
+			[
+				"weap",
+				"Script/Object/WeaponRoom.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"nk2",
+				"~/Documents/GameDevelop/CatBattle2Project/CatBattle2/nk2.sublime-project"
+			],
+			[
+				"vd",
+				"~/Documents/GameDevelop/VDProject/vd.sublime-workspace"
+			],
+			[
+				"soe",
+				"~/Documents/GameDevelop/SongOfEdenProject/SongOfEden/soe.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/GameDevelop/GundamProject/GundamVS copy/gundam.sublime-workspace"
+			],
+			[
+				"nk",
+				"~/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/nk.sublime-project"
+			],
+			[
+				"na",
+				"~/Documents/GameDevelop/NaughtyKittiesProject/NaughtyKitties/nk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 584.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
