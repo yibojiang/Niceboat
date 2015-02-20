@@ -19,6 +19,7 @@ function Start () {
 }
 
 function FadeTo(_interval:float,_action:Action){
+	camFade.gameObject.SetActive(true);
 	var interval:float=_interval/2;
 	yield DoFadeOut(interval,null);
 	_action();
@@ -33,6 +34,7 @@ function FadeIn(_interval:float){
 }
 
 function DoFadeOut(_interval:float,_action:Action){
+	camFade.gameObject.SetActive(true);
 	fading=true;
 	var toggle:float;
 	var interval:float=_interval;
@@ -46,9 +48,11 @@ function DoFadeOut(_interval:float,_action:Action){
 	if (_action!=null){
 		_action();
 	}
+
 }
 
 function DoFadeIn(_interval:float,_action:Action){
+	camFade.gameObject.SetActive(true);
 	fading=true;
 	var toggle:float;
 	var interval:float=_interval;
@@ -62,4 +66,5 @@ function DoFadeIn(_interval:float,_action:Action){
 	if (_action!=null){
 		_action();
 	}
+	camFade.gameObject.SetActive(false);
 }

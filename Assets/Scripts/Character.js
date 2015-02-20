@@ -10,21 +10,38 @@ var maxHealth:int=5;
 var psy:int=3;
 var maxPsy:int=5;
 
-var alive:boolean=true;
-
 var hunger:float=0;
 var maxHunger:float=5;
 
-//var dialogs=new List.<DialogData>();
+var boating:float;
+var fishing:float;
+
+var alive:boolean=true;
+var disappear:boolean=false;
+var isSleeping:boolean=false;
+
 var msgBox:MessageBox;
 
-var disappear:boolean;
-
 var anim:Animator;
-
-
 var speakTarget:Character;
-var isSleeping:boolean;
+
+var portrait:Sprite;
+var dialogContainer:DialogContainer;
+
+function TriggerOptionDialog(_dgId:int):Action{
+	return function(){
+		var pc:PlayerController=PlayerController.Instance();
+		var dg:DialogGroup=dialogContainer.GetDialogGroupById(_dgId);
+		if (dg!=null){
+			pc.dialogBox.SetDialogGroup(characterName,dg,portrait);
+			pc.dialogBox.ShowNextDialog();
+		}
+		else{
+			pc.dialogBox.Hide();	
+		}
+		
+	};
+}
 
 function IsHungry():boolean{
 	if (hunger<maxHealth){
@@ -169,7 +186,7 @@ function Awake(){
 function SetSpeakTarget(_target:Character){
 	speakTarget=_target;
 	if (_target!=null){
-		Debug.Log(characterName+" speak to "+_target.characterName);
+		//Debug.Log(characterName+" speak to "+_target.characterName);
 		var speakDir:float=_target.transform.position.x-transform.position.x;
 		if (speakDir>0){
 			SetDir(1);
@@ -179,7 +196,7 @@ function SetSpeakTarget(_target:Character){
 		}
 	}
 	else{
-		Debug.Log(characterName+" speak over");	
+		//Debug.Log(characterName+" speak over");	
 	}
 
 	
@@ -225,7 +242,7 @@ function DoNothing():Action{
 		var pc:PlayerController=PlayerController.Instance();
 		var dialogs=new List.<DialogData>();
 		dialogs.Add(new DialogData("Ok, See ya.") );
-		pc.dialogBox.SetDialogs(characterName,dialogs);
+		pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 		pc.dialogBox.ShowNextDialog();
 	};
 }
@@ -292,20 +309,20 @@ function Boating():Action{
 				gm.ShowMessage(eventMsg,AfterBoating() );			
 				pc.AddFood(-pc.food/2);
 				pc.AddAmmo(-pc.ammo/2);
-				for (i=0;i<pc.allCharacters.Length;i++){
-					pc.allCharacters[i].AddHealth(-1);
+				for (i=0;i<pc.characters.Length;i++){
+					pc.characters[i].AddHealth(-1);
 				}
 			}
 			else if (flag<65){//Ghost event
 				eventMsg=String.Format("{0} went boating. You met the ghost of the old navy, and some of you are crazy.",characterName);
 				gm.ShowMessage(  eventMsg ,AfterBoating() );
-				for (i=0;i<pc.allCharacters.Length;i++){
-					pc.allCharacters[i].AddPsy(-2);
+				for (i=0;i<pc.characters.Length;i++){
+					pc.characters[i].AddPsy(-2);
 				}
 
 			}
 			else if (flag<75){//shark event
-				if (pc.ammo>2 && pc.allCharacters[4].IsAvailable() ){
+				if (pc.ammo>2 && pc.characters[CharacterEnum.Soldier].IsAvailable() ){
 					eventMsg=String.Format("{0} went boating. A shark attacked, the soldier shooted the shark, you got some food and lose some ammo.",characterName);
 					gm.ShowMessage( eventMsg,AfterBoating() );
 					pc.AddAmmo(-2);
@@ -324,7 +341,7 @@ function Boating():Action{
 				pc.AddFood(5);
 			}
 			else{//meet enemy
-				if (pc.ammo>5 && pc.allCharacters[4].IsAvailable() ){
+				if (pc.ammo>5 && pc.characters[CharacterEnum.Soldier].IsAvailable() ){
 					eventMsg=String.Format("{0} went boating. You met pirates, soldier shooted the enemies, got some food and ammo",characterName);
 					gm.ShowMessage( eventMsg,AfterBoating() );
 					pc.AddAmmo(10);
@@ -336,8 +353,8 @@ function Boating():Action{
 					pc.AddAmmo(-pc.ammo);
 					pc.AddFood(-pc.food);
 
-					for (i=0;i<pc.allCharacters.Length;i++){
-						pc.allCharacters[i].AddHealth(-1);
+					for (i=0;i<pc.characters.Length;i++){
+						pc.characters[i].AddHealth(-1);
 					}
 				}
 			}
@@ -363,6 +380,14 @@ function GetDialogs():List.<DialogData>{
 
 	return dialogs;
 }
+
+function Talk(){
+	var pc:PlayerController=PlayerController.Instance();
+	//pc.dialogBox.SetDialogs( String.Format("{0}",characterName) ,GetDialogs(),portrait);
+	pc.dialogBox.SetDialogGroup(characterName,dialogContainer.dialogGroups[0],portrait);
+	pc.dialogBox.ShowDialog();			
+}
+
 
 var turning:boolean;
 
@@ -402,11 +427,50 @@ function IsPlayer():boolean{
 	}
 }
 
+var walkingToTarget:boolean=false;
 
+function TalkTo(_character:Character){
+	MoveToPos(_character.transform.position);	
+	var pc:PlayerController=PlayerController.Instance();
+	while (pc.target!=_character ){
+		yield;
+	}
+	
+	if (pc.target!=null){
+		pc.target.Talk();	
+	}
+	
+
+	walkingToTarget=false;
+}
+
+function MoveToPos(_targetPos:Vector3){
+	//StopCoroutine(DoMoveToPos(_targetPos) );
+	StartCoroutine(DoMoveToPos(_targetPos) );
+}
+
+function DoMoveToPos(_targetPos:Vector3){
+	if (walkingToTarget){
+		walkingToTarget=false;
+		yield WaitForEndOfFrame();
+	}
+	var dir:float=_targetPos.x-transform.position.x;
+	walkingToTarget=true;
+	while ( Mathf.Abs(dir)>0.1 && walkingToTarget){
+		dir=_targetPos.x-transform.position.x;
+		if (dir>0){
+			direction=1;
+		}
+		else{
+			direction=-1;	
+		}
+		yield WaitForEndOfFrame();
+	}
+	direction=0;
+}
 
 function FixedUpdate () {
 	
-
 	if (anim!=null){
 		anim.SetFloat("walkSpeed",Mathf.Abs(walkSpeed*direction) );
 	}
@@ -418,7 +482,6 @@ function FixedUpdate () {
 		else{
 			anim.SetBool("speaking",false);
 		}
-		
 	}
 
 	if (!turning){

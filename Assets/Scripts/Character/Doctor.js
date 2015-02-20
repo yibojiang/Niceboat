@@ -24,14 +24,14 @@ class Doctor extends Character{
 			var dialogs=new List.<DialogData>();
 			var choices=new List.<ChoiceData>();
 			var i:int;
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if (pc.allCharacters[i].alive && !pc.allCharacters[i].disappear && pc.allCharacters[i]!=this && pc.allCharacters[i].health<pc.allCharacters[i].maxHealth){
-					choices.Add(new ChoiceData(pc.allCharacters[i].characterName,HealSomeOne(pc.allCharacters[i]) ) );	
+			for (i=0;i<pc.characters.Length;i++){
+				if (pc.characters[i].alive && !pc.characters[i].disappear && pc.characters[i]!=this && pc.characters[i].health<pc.characters[i].maxHealth){
+					choices.Add(new ChoiceData(pc.characters[i].characterName,HealSomeOne(pc.characters[i]) ) );	
 				}
 			}
 			choices.Add(new ChoiceData("Nobody.",HealSomeOne(null) ) );
 			dialogs.Add(new DialogData("Heal whom, sir ?",choices) );
-			pc.dialogBox.SetDialogs(characterName,dialogs);
+			pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 			pc.dialogBox.ShowNextDialog();
 		};
 	}
@@ -51,7 +51,7 @@ class Doctor extends Character{
 			else{
 				var dialogs=new List.<DialogData>();
 				dialogs.Add(new DialogData("See ya, sir.") );
-				pc.dialogBox.SetDialogs(characterName,dialogs);
+				pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 				pc.dialogBox.ShowNextDialog();	
 			}
 			

@@ -47,9 +47,9 @@ class Chef extends Character{
 			}
 			
 			var averageFood:float=eatFood/pc.GetAvailableCount();
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if (pc.allCharacters[i].IsAvailable() ){
-					pc.allCharacters[i].AddHunger(-averageFood);
+			for (i=0;i<pc.characters.Length;i++){
+				if (pc.characters[i].IsAvailable() ){
+					pc.characters[i].AddHunger(-averageFood);
 					pc.AddFood(-averageFood);	
 				}
 			}
@@ -69,9 +69,9 @@ class Chef extends Character{
 			if (_character!=null){
 				var deathFood:float=_character.maxHealth;
 				var averageFood:float=deathFood/pc.GetAvailableCount();
-				for (i=0;i<pc.allCharacters.Length;i++){
-					if (pc.allCharacters[i].IsAvailable() ){
-						pc.allCharacters[i].AddHunger(-averageFood);
+				for (i=0;i<pc.characters.Length;i++){
+					if (pc.characters[i].IsAvailable() ){
+						pc.characters[i].AddHunger(-averageFood);
 					}
 				}
 				var gm:GameManager=GameManager.Instance();
@@ -84,7 +84,7 @@ class Chef extends Character{
 			else{
 				var dialogs=new List.<DialogData>();
 				dialogs.Add(new DialogData("okay, sir.") );
-				pc.dialogBox.SetDialogs(characterName,dialogs);
+				pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 				pc.dialogBox.ShowNextDialog();	
 			}
 		};
@@ -100,14 +100,14 @@ class Chef extends Character{
 			var dialogs=new List.<DialogData>();
 			var choices=new List.<ChoiceData>();
 			var i:int;
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if ( pc.allCharacters[i].CanBeEaten() ){
-					choices.Add(new ChoiceData(pc.allCharacters[i].characterName,CookSomeOne(pc.allCharacters[i]) ) );	
+			for (i=0;i<pc.characters.Length;i++){
+				if ( pc.characters[i].CanBeEaten() ){
+					choices.Add(new ChoiceData(pc.characters[i].characterName,CookSomeOne(pc.characters[i]) ) );	
 				}
 			}
 			choices.Add(new ChoiceData("Nobody.",CookSomeOne(null) ) );
 			dialogs.Add(new DialogData("Cook whom ?",choices) );
-			pc.dialogBox.SetDialogs(characterName,dialogs);
+			pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 			pc.dialogBox.ShowNextDialog();
 		};
 	}
@@ -127,7 +127,7 @@ class Chef extends Character{
 
 				var dialogs=new List.<DialogData>();
 				dialogs.Add(new DialogData("We have no food left, sir.") );
-				pc.dialogBox.SetDialogs(characterName,dialogs);
+				pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 				pc.dialogBox.ShowNextDialog();
 			}
 		};

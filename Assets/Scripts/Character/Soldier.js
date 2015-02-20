@@ -24,14 +24,14 @@ class Soldier extends Character{
 			var dialogs=new List.<DialogData>();
 			var choices=new List.<ChoiceData>();
 			var i:int;
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if (pc.allCharacters[i]!=pc.player && pc.allCharacters[i]!=this && pc.allCharacters[i].alive && !pc.allCharacters[i].disappear ){
-					choices.Add(new ChoiceData(pc.allCharacters[i].characterName,KillSomeOne(pc.allCharacters[i]) ) );	
+			for (i=0;i<pc.characters.Length;i++){
+				if (pc.characters[i]!=pc.player && pc.characters[i]!=this && pc.characters[i].alive && !pc.characters[i].disappear ){
+					choices.Add(new ChoiceData(pc.characters[i].characterName,KillSomeOne(pc.characters[i]) ) );	
 				}
 			}
 			choices.Add(new ChoiceData("Nobody.",KillSomeOne(null) ) );
 			dialogs.Add(new DialogData("Kill whom, sir ?",choices) );
-			pc.dialogBox.SetDialogs(characterName,dialogs);
+			pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 			pc.dialogBox.ShowNextDialog();
 		};
 	}
@@ -44,9 +44,9 @@ class Soldier extends Character{
 
 			var pc:PlayerController=PlayerController.Instance();
 			var i:int;
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if (pc.allCharacters[i].IsAvailable() ){
-					pc.allCharacters[i].AddPsy(-1);	
+			for (i=0;i<pc.characters.Length;i++){
+				if (pc.characters[i].IsAvailable() ){
+					pc.characters[i].AddPsy(-1);	
 				}
 			}
 		};
@@ -58,7 +58,7 @@ class Soldier extends Character{
 			var dialogs=new List.<DialogData>();
 			if (pc.ammo<=0){
 				dialogs.Add(new DialogData("We have no ammo, sir.") );
-				pc.dialogBox.SetDialogs(characterName,dialogs);
+				pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 				pc.dialogBox.ShowNextDialog();	
 
 			}
@@ -73,7 +73,7 @@ class Soldier extends Character{
 				else{
 					
 					dialogs.Add(new DialogData("See ya, sir.") );
-					pc.dialogBox.SetDialogs(characterName,dialogs);
+					pc.dialogBox.SetDialogs(characterName,dialogs,portrait);
 					pc.dialogBox.ShowNextDialog();	
 				}	
 			}

@@ -21,6 +21,11 @@ function PlayText(){
 }
 
 function DoPlayText(){
+	if (typing){
+		typing=false;
+		yield WaitForEndOfFrame();
+	}
+
 	typing=true;
 	var am:AudioManager=AudioManager.Instance();
 	var originText:String=text.text;
@@ -32,7 +37,7 @@ function DoPlayText(){
 	//var interval:float=originText.length/speed;
 	toggle=0;
 	interval=originText.length/speed;
-	while(toggle<interval){
+	while(toggle<interval && typing){
 		//Debug.Log("typing");
 		var tmpString:String=originText.Substring(0, Mathf.Lerp(0, originText.length,toggle/interval) );
 		if (text.text!=tmpString){
@@ -61,10 +66,10 @@ function DoPlayText(){
 
 function Update(){
 	if (typing){
-		if (Input.GetKeyDown(KeyCode.Z) ){
+		if ( InputManager.Instance().GetSkipButtonDown() ){
 			//Debug.Log("skip123");
 			if (toggle>0.05){
-				Debug.Log("skip text");
+				//Debug.Log("skip text");
 				toggle=interval;	
 			}
 			

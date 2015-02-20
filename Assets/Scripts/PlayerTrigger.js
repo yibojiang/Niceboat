@@ -35,11 +35,3 @@ function OnTriggerExit(_other:Collider){
 		}
 	}	
 }
-
-function Start () {
-
-}
-
-function Update () {
-
-}

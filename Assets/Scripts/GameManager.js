@@ -9,12 +9,15 @@ public static function Instance() : GameManager
     return instance;
 }
 
+
+
 var txtTitle:TypeWriter;
 var txtStory:TypeWriter;
 var txtMessage:TypeWriter;
 
 var msgPrefab:MessageBox;
 var ingameUI:Transform;
+
 
 var day:int=0;
 
@@ -30,6 +33,7 @@ var maxProgress:int=10;
 var dailyLog:String;
 var storyLog:String;
 
+var events:GameEvent[];
 
 function AddLog(_logString){
 	dailyLog+=_logString+"\n";
@@ -85,18 +89,18 @@ function GameFinish(){
 	var dieMsg:String;
 
 	var i:int;
-	for (i=0;i<pc.allCharacters.Length;i++){
-		if (pc.allCharacters[i].alive){
-			if (pc.allCharacters[i].IsSleeping() ){
-				sleepMsg+=pc.allCharacters[i].characterName+" ";
+	for (i=0;i<pc.characters.Length;i++){
+		if (pc.characters[i].alive){
+			if (pc.characters[i].IsSleeping() ){
+				sleepMsg+=pc.characters[i].characterName+" ";
 			}
 
-			if (pc.allCharacters[i].IsCrazy() ){
-				crazyMsg+=pc.allCharacters[i].characterName+" ";
+			if (pc.characters[i].IsCrazy() ){
+				crazyMsg+=pc.characters[i].characterName+" ";
 			}	
 		}
 		else{
-			dieMsg+=pc.allCharacters[i].characterName+" ";
+			dieMsg+=pc.characters[i].characterName+" ";
 		}
 	}
 	
@@ -112,7 +116,7 @@ function GameFinish(){
 
 	var tap:boolean=false;
 	while(!tap){
-		if (Input.GetKeyDown(KeyCode.Z) ){
+		if ( InputManager.Instance().GetSkipButtonDown() ){
 			tap=true;
 		}
 		yield;
@@ -144,18 +148,18 @@ function GameOver(){
 	var dieMsg:String;
 
 	var i:int;
-	for (i=0;i<pc.allCharacters.Length;i++){
-		if (pc.allCharacters[i].alive){
-			if (pc.allCharacters[i].IsSleeping() ){
-				sleepMsg+=pc.allCharacters[i].characterName+" ";
+	for (i=0;i<pc.characters.Length;i++){
+		if (pc.characters[i].alive){
+			if (pc.characters[i].IsSleeping() ){
+				sleepMsg+=pc.characters[i].characterName+" ";
 			}
 
-			if (pc.allCharacters[i].IsCrazy() ){
-				crazyMsg+=pc.allCharacters[i].characterName+" ";
+			if (pc.characters[i].IsCrazy() ){
+				crazyMsg+=pc.characters[i].characterName+" ";
 			}	
 		}
 		else{
-			dieMsg+=pc.allCharacters[i].characterName+" ";
+			dieMsg+=pc.characters[i].characterName+" ";
 		}
 	}
 	
@@ -172,7 +176,7 @@ function GameOver(){
 	yield WaitForEndOfFrame();
 	var tap:boolean=false;
 	while(!tap){
-		if (Input.GetKeyDown(KeyCode.Z) ){
+		if ( InputManager.Instance().GetSkipButtonDown() ){
 			tap=true;
 		}
 		yield;
@@ -194,7 +198,7 @@ function DoNextDay(){
 
 
 	pc.controlOn=false;
-	yield cc.DoFadeOut(3,null);
+	yield cc.DoFadeOut(2,null);
 	txtTitle.gameObject.SetActive(true);
 	
 
@@ -205,46 +209,45 @@ function DoNextDay(){
 	var dieMsg:String;
 
 	var i:int;
-	for (i=0;i<pc.allCharacters.Length;i++){
-		if (pc.allCharacters[i].IsAvailable() ){
-			availableCrews.Add(pc.allCharacters[i]);
+	for (i=0;i<pc.characters.Length;i++){
+		if (pc.characters[i].IsAvailable() ){
+			availableCrews.Add(pc.characters[i]);
 		}
 	}
 
-	for (i=0;i<pc.allCharacters.Length;i++){
-		if (pc.allCharacters[i].alive && pc.allCharacters[i].IsHungry() ){
-			pc.allCharacters[i].AddHealth(-1);
-			AddLog(pc.allCharacters[i].characterName+" is too hungry, loses health.");
+	for (i=0;i<pc.characters.Length;i++){
+		if (pc.characters[i].alive && pc.characters[i].IsHungry() ){
+			pc.characters[i].AddHealth(-1);
+			AddLog(pc.characters[i].characterName+" is too hungry, loses health.");
 		}
 
-		if (pc.allCharacters[i].alive){
-			pc.allCharacters[i].AddHunger(1);
+		if (pc.characters[i].alive){
+			pc.characters[i].AddHunger(1);
 		}
 
-		if (pc.allCharacters[i].alive && !pc.allCharacters[i].IsSleeping() ){
-			pc.allCharacters[i].AddPsy(-1);
+		if (pc.characters[i].alive && !pc.characters[i].IsSleeping() ){
+			pc.characters[i].AddPsy(-1);
 		}
 
-		if (pc.allCharacters[i].alive && !pc.allCharacters[i].IsSleeping() && pc.allCharacters[i].IsCrazy() ){
+		if (pc.characters[i].alive && !pc.characters[i].IsSleeping() && pc.characters[i].IsCrazy() ){
 			var randomAttackTarget:int=Random.Range(0,availableCrews.Count);
-			//Debug.Log(pc.allCharacters[i]+ " attacks "+ availableCrews[randomAttackTarget]);
-			var crazyAttackStr:String=String.Format("{0} goes mad and beats {1}.",pc.allCharacters[i].characterName,availableCrews[randomAttackTarget].characterName);
+			var crazyAttackStr:String=String.Format("{0} goes mad and beats {1}.",pc.characters[i].characterName,availableCrews[randomAttackTarget].characterName);
 
 			AddLog(crazyAttackStr);
 			availableCrews[randomAttackTarget].AddHealth(-1);
 		}
 
-		if (pc.allCharacters[i].alive){
-			if (pc.allCharacters[i].IsSleeping() ){
-				sleepMsg+=pc.allCharacters[i].characterName+" ";
+		if (pc.characters[i].alive){
+			if (pc.characters[i].IsSleeping() ){
+				sleepMsg+=pc.characters[i].characterName+" ";
 			}
 
-			if (pc.allCharacters[i].IsCrazy() ){
-				crazyMsg+=pc.allCharacters[i].characterName+" ";
+			if (pc.characters[i].IsCrazy() ){
+				crazyMsg+=pc.characters[i].characterName+" ";
 			}	
 		}
 		else{
-			dieMsg+=pc.allCharacters[i].characterName+" ";
+			dieMsg+=pc.characters[i].characterName+" ";
 		}
 	}
 
@@ -258,7 +261,7 @@ function DoNextDay(){
 
 	var tap:boolean=false;
 	while(!tap){
-		if (Input.GetKeyDown(KeyCode.Z) ){
+		if ( InputManager.Instance().GetSkipButtonDown() ){
 			tap=true;
 		}
 		yield;
@@ -272,7 +275,7 @@ function DoNextDay(){
 	pc.boatCount=0;
 
 	UpdateBackGround();
-	yield cc.DoFadeIn(3,null);
+	yield cc.DoFadeIn(2,null);
 
 	//setup next day
 	pc.controlOn=true;
@@ -317,7 +320,7 @@ function DoShowMessage(_msg:String,_action:Action){
 
 	var tap:boolean=false;
 	while(!tap){
-		if (Input.GetKeyDown(KeyCode.Z) ){
+		if ( InputManager.Instance().GetSkipButtonDown() ){
 			tap=true;
 		}
 		yield;
@@ -338,13 +341,13 @@ function DoShowMessage(_msg:String,_action:Action){
 var skip:boolean;
 function Start () {
 	var pc:PlayerController=PlayerController.Instance();
+	var cc:CameraController=CameraController.Instance();
+
+	
 	if (!skip){
 		cutScene=true;
 		pc.controlOn=false;
-		var cc:CameraController=CameraController.Instance();
-
 		cc.camFade.color.a=1;
-		//yield cc.DoFadeOut(0.1,null);
 		
 		txtStory.gameObject.SetActive(false);
 		txtTitle.gameObject.SetActive(true);
@@ -356,7 +359,7 @@ function Start () {
 		yield WaitForEndOfFrame();
 		var tap:boolean=false;
 		while(!tap){
-			if (Input.GetKeyDown(KeyCode.Z) ){
+			if ( InputManager.Instance().GetSkipButtonDown() ){
 				tap=true;
 			}
 			yield;
@@ -364,29 +367,18 @@ function Start () {
 		txtTitle.gameObject.SetActive(false);
 		txtStory.gameObject.SetActive(false);
 
-		yield cc.DoFadeIn(3,null);
+		yield cc.DoFadeIn(0.5,null);
 		cutScene=false;
 		pc.controlOn=true;	
 	}
 	else{
 		pc.controlOn=false;		
 	}
-	/*
-	if (txtStory.gameObject.activeInHierarchy && txtTitle.gameObject.activeInHierarchy){
-		txtTitle.PlayText();
-		txtStory.gameObject.SetActive(false);
-		yield WaitForSeconds(1);
-		while(txtTitle.typing){
-			yield;
-		}
-		yield WaitForSeconds(1);
-		txtStory.gameObject.SetActive(true);
-		txtStory.PlayText();	
-	}
-	*/
 	
+	//events[0].EventStart();
+
 }
 
 function Update () {
-
+	//Debug.Log(Input.GetMouseButtonDown(0));
 }

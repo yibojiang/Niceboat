@@ -61,9 +61,9 @@ class Sailor extends Character{
 			var pc:PlayerController=PlayerController.Instance();
 			
 			var i:int;
-			for (i=0;i<pc.allCharacters.Length;i++){
-				if (pc.allCharacters[i].IsAvailable() ){
-					pc.allCharacters[i].AddPsy(1);	
+			for (i=0;i<pc.characters.Length;i++){
+				if (pc.characters[i].IsAvailable() ){
+					pc.characters[i].AddPsy(1);	
 				}
 			}
 			
