@@ -117,8 +117,13 @@ function ShowNextDialog(){
 				btnRect.anchorMin=Vector2(1,0);
 				btnRect.anchorMax=Vector2(1,0);
 				btnRect.anchoredPosition.x=0;
-				btnRect.anchoredPosition.y=-10-i*25;
-				btnRect.anchoredPosition3D.z=0;
+				btnRect.anchoredPosition.y=-5-i*35;
+				if (optionButtons.Count>0){
+					btnRect.SetParent(optionButtons[optionButtons.Count-1].transform );	
+				}
+				
+				//btnRect.anchoredPosition3D.z=0;
+
 				btn.btn.onClick.AddListener(curDialogGroup.choices[i].action);
 				btn.text.text=curDialogGroup.choices[i].name;
 				optionButtons.Add(btn);
@@ -134,6 +139,18 @@ function ShowNextDialog(){
 	else{
 		//Hide();
 		//curDialogGroup=null;
+	}
+
+	for (i=0;i<optionButtons.Count;i++){
+		optionButtons[i].gameObject.SetActive(false);
+	}
+
+	while(txtMsg.typing){
+		yield WaitForEndOfFrame();
+	}
+
+	for (i=0;i<optionButtons.Count;i++){
+		optionButtons[i].gameObject.SetActive(true);
 	}
 }
 

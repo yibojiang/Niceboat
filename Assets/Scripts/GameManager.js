@@ -340,6 +340,8 @@ function DoShowMessage(_msg:String,_action:Action){
 
 var skip:boolean;
 function Start () {
+
+	Application.targetFrameRate = 60;
 	var pc:PlayerController=PlayerController.Instance();
 	var cc:CameraController=CameraController.Instance();
 
@@ -378,6 +380,8 @@ function Start () {
 	//events[0].EventStart();
 
 }
+
+
 
 function Update () {
 	//Debug.Log(Input.GetMouseButtonDown(0));

@@ -55,11 +55,13 @@ function Start(){
 		
 	}
 	else{
+		/*
 		msgBox=Instantiate( gm.msgPrefab);
 		msgBox.transform.SetParent(gm.ingameUI);
 		msgBox.transform.localScale=Vector3(1,1,1);
 		msgBox.rectTransform.pivot=Vector2(0,0);
 		msgBox.Hide();	
+		*/
 	}
 	
 }
@@ -236,6 +238,7 @@ function Update () {
 
 var mode:int=0;//0-tps mode, 1-fps mode
 function SwitchMode(){
+	//Debug.Log("SwitchMode");
 	mode++;
 	mode=mode % 2;
 	if (mode==0){

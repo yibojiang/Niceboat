@@ -8,6 +8,8 @@ var mute:boolean=false;
 private var toggle:float;
 private var interval:float;
 
+var bgRect:RectTransform;
+
 function Reset(){
 	text=GetComponent.<Text>();
 }
@@ -74,6 +76,10 @@ function Update(){
 			}
 			
 		}	
+	}
+	if (bgRect!=null){
+		bgRect.sizeDelta.x=text.preferredWidth+10;
+		bgRect.sizeDelta.y=text.preferredHeight+10;
 	}
 }
 

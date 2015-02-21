@@ -446,7 +446,10 @@ function TalkTo(_character:Character){
 
 function MoveToPos(_targetPos:Vector3){
 	//StopCoroutine(DoMoveToPos(_targetPos) );
-	StartCoroutine(DoMoveToPos(_targetPos) );
+	if (this.gameObject.activeInHierarchy){
+		StartCoroutine(DoMoveToPos(_targetPos) );	
+	}
+	
 }
 
 function DoMoveToPos(_targetPos:Vector3){

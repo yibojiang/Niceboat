@@ -10,3 +10,4 @@ public static function Instance() : InputManager
 function GetSkipButtonDown():boolean{
 	return Input.GetKeyDown(KeyCode.Z) || Input.GetMouseButtonDown(0);
 }
+
